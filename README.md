@@ -1,4 +1,39 @@
-# ClimAdventure 🌍
+# 🌍 ClimAdventure
+
+## 🇬🇧 English Version
+---
+**ClimAdventure** is an interactive app for travelers who care about their health and the environment.  
+It helps you choose destinations with cleaner air, adapt your activities to pollution levels, and plan responsible, data-driven trips.
+
+### Description
+Plan your trips while breathing fresh air!  
+ClimAdventure allows you to:
+- Visualize global air pollution levels (NO₂, CO, PM2.5...) on a dynamic interactive map.  
+- Discover destinations with optimal air quality.  
+- Receive health and eco-friendly travel advice.  
+- Access information about your destination and the best nearby hotels.  
+
+### ⚙️ Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/chekalisa/air_quality.git
+   
+2. Navigate to the project directory:
+```bash
+cd air_quality
+```
+3. Build the Docker image:
+```bash
+docker build -t climaventure:latest .
+```
+
+This command uses the Dockerfile to create an image containing all required dependencies.
+
+### Note
+If you rebuild the image, make sure to remove existing containers before restarting the app.
+
+## 🇫🇷 Version Française
+---
 
 ClimAdventure est un outil interactif pour les voyageurs soucieux de leur santé et de l'environnement. 
 Cette application vous permet de choisir des destinations avec un air plus sain, d'adapter vos activités 
