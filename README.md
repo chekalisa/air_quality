@@ -19,13 +19,13 @@ ClimAdventure allows you to:
    git clone https://github.com/chekalisa/air_quality.git
    
 2. Navigate to the project directory:
-```bash
-cd air_quality
-```
+   ```bash
+   cd air_quality
+   ```
 3. Build the Docker image:
-```bash
-docker build -t climaventure:latest .
-```
+   ```bash
+   docker build -t climaventure:latest .
+   ```
 
 This command uses the Dockerfile to create an image containing all required dependencies.
 
